@@ -1,4 +1,4 @@
-# Plumbers App – Offline Payroll & Job Tracker (.exe)
+Plumbers App – Offline Payroll & Job Tracker (.exe)
 
 This repository contains documentation for the Plumbers App — a closed‑source Windows application designed for small to large plumbing production teams to manage job entries, payroll, material usage, and daily work tickets entirely offline.
 
