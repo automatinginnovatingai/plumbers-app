@@ -6,6 +6,32 @@ The Plumbers App was built to modernize workflows in the plumbing industry. Many
 
 This unified release delivers major upgrades to workflow management, reporting, inventory handling, and SQL Server data management. All legacy versions have been consolidated into one unified build. SQLite has been fully removed. The application now uses SQL Server Express or Full SQL Server, depending on the user’s environment.
 
+---------------------------------
+Role‑Based Access Control (RBAC)
+---------------------------------
+
+All AIAI applications now include a unified, secure RBAC system designed for multi‑admin environments and professional data governance.
+
+Global Admin
+Full system access. Can configure company‑wide settings, manage other admins, control data sources, and access all modules.
+
+Local Admin
+Operational access only. Can manage day‑to‑day tasks such as employees, jobs, materials, time entries, invoices, or inventory (depending on the app). Cannot modify global settings or create new companies.
+
+Admin‑Only Registration
+Only administrators can register accounts. No employee or installer self‑registration is allowed.
+
+Dynamic UI Permissions
+Each screen automatically adapts to the user’s role. Restricted modules are hidden or blocked with clear access messages.
+
+Centralized Permission Enforcement
+All role checks are handled through a unified RBAC engine to ensure consistent security across every module and workflow.
+
+Multi‑Admin Support 
+Global Admin customers can add additional administrators using the Admin Add‑on. Each admin receives their own secure login and role‑based access.
+
+This RBAC system ensures secure, scalable, and professional‑grade access control across all AIAI applications.
+
 ------------------------------------------------------------
 NEW FEATURES AND ENHANCEMENTS
 ------------------------------------------------------------
