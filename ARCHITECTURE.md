@@ -50,13 +50,13 @@ The installer writes a registry flag (`UseSQLExpress`) that determines which con
 ---
 
 ## License Enforcement Flow
-User Launch → License Prompt → Gumroad API Validation → Local Unlock
+A valid Stripe subscription is required to use this application.
 
-- User enters their Gumroad license key on first launch
-- Key is validated through Gumroad’s `/v2/licenses/verify` endpoint
-- Valid keys unlock the application and store the license state locally
-- Periodic revalidation may occur (e.g., every 7 days)
-- License tier determines access to Basic, Pro, or Enterprise features
+• On first launch, the app checks your subscription status securely through Stripe.
+• If your subscription is active, the app unlocks full access.
+• If your subscription is canceled, expired, or unpaid, access is restricted.
+• Internet is required only during subscription verification and plan changes.
+• All billing and upgrades are handled through Stripe’s secure checkout.
 
 ---
 

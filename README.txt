@@ -116,17 +116,16 @@ KEY FEATURES
 - Automatic version checking and update prompts  
 - Unified architecture — all plans in one application  
 
-------------------------------------------------------------
-LICENSE ENFORCEMENT
-------------------------------------------------------------
+============================================================
+LICENSE ACTIVATION
+============================================================
+A valid Stripe subscription is required to use this application.
 
-The `.exe` is encrypted and gated by Gumroad license validation.
-
-- Users must enter a valid license key on first launch  
-- License keys are verified via Gumroad’s API  
-- Invalid or revoked keys restrict access  
-- No backend session store — validation is stateless and secure  
-- After activation, the app operates fully offline  
+• On first launch, the app checks your subscription status securely through Stripe.
+• If your subscription is active, the app unlocks full access.
+• If your subscription is canceled, expired, or unpaid, access is restricted.
+• Internet is required only during subscription verification and plan changes.
+• All billing and upgrades are handled through Stripe’s secure checkout.
 
 ------------------------------------------------------------
 VERSIONS AVAILABLE
